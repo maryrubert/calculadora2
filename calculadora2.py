@@ -13,11 +13,14 @@ def calculadora (n1, n2, op):
 
 while(True):
     op = int(input("Escolha a operação: "))
-    if(op==0):
-       break
+    if(op==0): break
+    else: 
+      print("Essa operação não existe")
 
+    
     n1 = int(input("Digite o primeiro número  "))
     n2 = int(input("Digite o segundo número  "))
 
     resultado = calculadora(n1, n2, op)
     print("Resultado:   ", resultado)
+
